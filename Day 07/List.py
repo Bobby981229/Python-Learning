@@ -41,5 +41,3 @@ print()
 # 通过enumerate函数处理列表之后再遍历可以同时获得元素索引和值
 for index, elem in enumerate(list1):
     print(index, elem)
-
-
