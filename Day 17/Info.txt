@@ -1,0 +1,3 @@
+1.   Name： Bobby
+2.   Age： 21
+3.   School： BUAA
