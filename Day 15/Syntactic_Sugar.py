@@ -1,5 +1,5 @@
 """
-语法糖
+装饰器 - 语法糖
 """
 
 import random
@@ -7,7 +7,6 @@ import time
 
 
 def record_time(func):
-
     def wrapper(*args, **kwargs):
         start = time.time()
         result = func(*args, **kwargs)
