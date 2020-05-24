@@ -1,1 +1,56 @@
-{"My Name": "LSY", "My WeChat": "Bobby981229", "Friends Information": [{"Friend Name": "Fiamma", "WeChat Number": "197076658", "Gender": "Male", "Age": "22"}, {"Friend Name": "Jessica", "WeChat Number": "197076675", "Gender": "Female", "Age": "20"}, {"Friend Name": "Angle", "WeChat Number": "197075695", "Gender": "Male", "Age": "18"}], "Groups Information": [{"Group Name": "Football Team", "Population": "50", "Member": [{"Name": "Messi"}, {"Name": "Faze"}, {"Name": "Simple"}]}, {"Group Name": "Basketball Team", "Population": "99", "Member": [{"Name": "Jack"}, {"Name": "Jesscia"}, {"Name": "Angle"}]}]}
+{
+  "My Name": "LSY",
+  "My WeChat": "Bobby981229",
+  "Friends Information": [
+    {
+      "Friend Name": "Fiamma",
+      "WeChat Number": "197076658",
+      "Gender": "Male",
+      "Age": "22"
+    },
+    {
+      "Friend Name": "Jessica",
+      "WeChat Number": "197076675",
+      "Gender": "Female",
+      "Age": "20"
+    },
+    {
+      "Friend Name": "Angle",
+      "WeChat Number": "197075695",
+      "Gender": "Male",
+      "Age": "18"
+    }
+  ],
+  "Groups Information": [
+    {
+      "Group Name": "Football Team",
+      "Population": "50",
+      "Member": [
+        {
+          "Name": "Messi"
+        },
+        {
+          "Name": "Faze"
+        },
+        {
+          "Name": "Simple"
+        }
+      ]
+    },
+    {
+      "Group Name": "Basketball Team",
+      "Population": "99",
+      "Member": [
+        {
+          "Name": "Jack"
+        },
+        {
+          "Name": "Jesscia"
+        },
+        {
+          "Name": "Angle"
+        }
+      ]
+    }
+  ]
+}
