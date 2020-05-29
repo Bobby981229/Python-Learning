@@ -8,7 +8,7 @@ import time
 # with关键字指定文件对象
 def main():
     try:
-        with open("F://Python//Github - Python 100 Days//Day 17//Info.txt", 'r', encoding='utf-8') as f:
+        with open("/Day 17 - Files and Exceptions//Info.txt", 'r', encoding='utf-8') as f:
             print(f.read())
     except FileNotFoundError:
         print('无法打开指定的文件!')
@@ -27,18 +27,18 @@ print("\n*********************************\n")
 # 使用for-in循环逐行读取或者用readlines方法将文件按行读取到一个列表容器
 def main():
     # 一次性读取整个文件内容
-    with open('F://Python//Github - Python 100 Days//Day 17//Info.txt', 'r', encoding='utf-8') as f:
+    with open('/Day 17 - Files and Exceptions//Info.txt', 'r', encoding='utf-8') as f:
         print(f.read())
 
     # 通过for-in循环逐行读取
-    with open('F://Python//Github - Python 100 Days//Day 17//Info.txt', mode='r') as f:
+    with open('/Day 17 - Files and Exceptions//Info.txt', mode='r') as f:
         for line in f:
             print(line, end='')
             time.sleep(0.5)
     print()
 
     # 读取文件按行读取到列表中
-    with open('F://Python//Github - Python 100 Days//Day 17//Info.txt') as f:
+    with open('/Day 17 - Files and Exceptions//Info.txt') as f:
         lines = f.readlines()
     print(lines)
 

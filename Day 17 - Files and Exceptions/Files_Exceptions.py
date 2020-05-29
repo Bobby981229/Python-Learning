@@ -15,7 +15,7 @@ import time
 def main():
     f = None
     try:
-        f = open('F://Python//Github - Python 100 Days//Day 17//Info.txt', 'r', encoding='utf-8')
+        f = open('/Day 17 - Files and Exceptions//Info.txt', 'r', encoding='utf-8')
         print(f.read())
     except FileNotFoundError:
         print('无法打开指定的文件!')
