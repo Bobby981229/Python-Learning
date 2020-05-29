@@ -1,0 +1,5 @@
+# 处理Excel电子表格
+# Python的openpyxl模块让我们可以在Python程序中读取和修改Excel电子表格
+# 当然实际工作中，我们可能会用LibreOffice Calc和OpenOffice Calc来处理Excel的电子表格文件
+# 这就意味着openpyxl模块也能处理来自这些软件生成的电子表格
+
