@@ -7,13 +7,13 @@ import threading
 
 # 睡眠的方法
 def do_sleep(func):
-    time.sleep(pow(1.1, float(func)))  # 使用幂函数就不怕负数排序了
-    print(func)
+    time.sleep(float(func))  # 使用幂函数就可以负数排序了 --> pow(1.1, float(func))
+    print('---> ', func)
 
 
 def main():
     # 需要排序的序列
-    num = [-5, 3, 9, 11, -1, 3, 12, 0, 8, -3, 23, 5, 19]
+    num = [5, 3, 9, 11, 10, 12, 0, 8, 16, 1, 9]
 
     start = time.perf_counter()  # 开始计时
     thread_list = []  # 将多个线程存在一个数组中
@@ -31,7 +31,7 @@ def main():
 
     end = time.perf_counter()
 
-    print('总耗时: ', str(end - start))
+    print('总耗时:', str(end - start))
 
 
 if __name__ == "__main__":
